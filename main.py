@@ -11,7 +11,6 @@ WIN_WIDTH = 800
 WIN_HEIGHT = 800
 
 BOY_IMG = pygame.image.load("boy.png")
-BLOOD_IMG = pygame.image.load("inkspillspot.png")
 PIPE_IMG = pygame.transform.scale2x(pygame.image.load("pipe.png"))
 BG_IMG = pygame.image.load("BG.jpg")
 STAT_FONT = pygame.font.SysFont("comicsans", 50)
@@ -116,7 +115,6 @@ class Pipe2:
 
 class Boy:
 	IMG = BOY_IMG
-	BLOOD = BLOOD_IMG
 	def __init__(self):
 		self.x = int(WIN_WIDTH / 2)
 		self.y = int(WIN_HEIGHT / 2)
