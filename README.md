@@ -1,4 +1,4 @@
-# Final Boy - Reinforcement Learning with NEAT-python
+# Arbitrarily Evolved Neural Networks with NEAT-python
 
 Learning environment is built with pygame
 
